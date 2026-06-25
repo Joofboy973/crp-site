@@ -1,0 +1,19 @@
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const form = document.getElementById('leadForm');
+if (form) {
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    const data = new FormData(form);
+    const subject = encodeURIComponent('Demande de devis CRP Telecom');
+    const body = encodeURIComponent(
+      'Bonjour CRP Telecom,%0D%0A%0D%0A' +
+      'Nom / Société : ' + (data.get('nom') || '') + '%0D%0A' +
+      'Téléphone : ' + (data.get('telephone') || '') + '%0D%0A' +
+      'Ville / Code postal : ' + (data.get('ville') || '') + '%0D%0A' +
+      'Besoin : ' + (data.get('besoin') || '') + '%0D%0A%0D%0A' +
+      'Message :%0D%0A' + (data.get('message') || '')
+    );
+    window.location.href = 'mailto:bs.fibre@outlook.fr?subject=' + subject + '&body=' + body;
+  });
+}
