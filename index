@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRP Telecom – Réparateur fibre optique</title>
+  <meta name="description" content="CRP Telecom intervient rapidement pour débloquer les raccordements fibre : détection, recherche de regards, réparation de fourreaux, tirage de fibre et pose de PTO.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img src="assets/logo.png" alt="Logo CRP Telecom">
+      </a>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#eligibilite">Éligibilité</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-outline" href="mailto:bs.fibre@outlook.fr">Email</a>
+        <a class="btn" href="tel:+33619705993">Appeler</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">CRP TELECOM • RÉPARATEUR FIBRE OPTIQUE</span>
+          <h1>La fibre s’arrête ?<br><span>Nous trouvons le passage.</span></h1>
+          <p>
+            Intervention rapide pour les blocages de raccordement fibre :
+            détection, recherche de regards, réparation de fourreaux,
+            tirage de fibre, pose de PTO et remise en service.
+          </p>
+          <div class="hero-list">
+            <span>✅ Intervention rapide</span>
+            <span>✅ Expertise qualifiée</span>
+            <span>✅ Solutions durables</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn-lg" href="tel:+33619705993">06 19 70 59 93</a>
+            <a class="btn btn-outline btn-lg" href="https://wa.me/33619705993" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <p class="mini">Devis gratuit • Département 14 / 27 / 76</p>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-card">
+            <img src="assets/robot.jpg" alt="Mascotte robot CRP Telecom">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="container strip-grid">
+        <div class="strip-card"><strong>Réactivité</strong><span>Intervention rapide dans votre secteur</span></div>
+        <div class="strip-card"><strong>Proximité</strong><span>Écoute et accompagnement client</span></div>
+        <div class="strip-card"><strong>Expertise</strong><span>Diagnostic et réparation fibre</span></div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">NOS SERVICES</span>
+          <h2>Des solutions concrètes pour votre raccordement</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Détection de blocage</h3>
+            <p>Localisation précise du point de blocage et diagnostic complet du passage.</p>
+          </article>
+          <article class="card">
+            <h3>Recherche de regards</h3>
+            <p>Repérage terrain, ouverture de zone et recherche de passage sur parcours privatifs.</p>
+          </article>
+          <article class="card">
+            <h3>Réparation de fourreaux</h3>
+            <p>Réparation sur sol mou ou dur, remise en état du cheminement et remplacement si nécessaire.</p>
+          </article>
+          <article class="card">
+            <h3>Tirage de fibre</h3>
+            <p>Aiguillage, tirage extérieur et intérieur jusqu’au point d’arrivée.</p>
+          </article>
+          <article class="card">
+            <h3>Pose de PTO</h3>
+            <p>Installation propre de la prise terminale optique dans le logement.</p>
+          </article>
+          <article class="card">
+            <h3>Accompagnement chantier</h3>
+            <p>Suivi, conseils, photos de réalisation et solutions adaptées selon la configuration.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="realisations" class="section section-dark">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">RÉALISATIONS</span>
+          <h2>Exemples de chantiers et interventions CRP</h2>
+          <p>Photos réelles de repérage, ouverture, recherche de passage, tirage et raccordement.</p>
+        </div>
+
+        <div class="featured-grid">
+          <figure class="featured">
+            <img src="assets/flyer_full.jpg" alt="Flyer CRP Telecom">
+            <figcaption>Visuel de communication CRP Telecom</figcaption>
+          </figure>
+          <figure class="featured">
+            <img src="assets/photo_pto.jpg" alt="Pose de PTO">
+            <figcaption>Pose de PTO dans le logement</figcaption>
+          </figure>
+        </div>
+
+        <div class="gallery">
+          <figure><img src="assets/photo_reperage.jpg" alt="Repérage de zone"><figcaption>Repérage de zone</figcaption></figure>
+          <figure><img src="assets/photo_ouverture.jpg" alt="Ouverture terrain"><figcaption>Ouverture terrain</figcaption></figure>
+          <figure><img src="assets/photo_conduite.jpg" alt="Conduite repérée"><figcaption>Conduite repérée</figcaption></figure>
+          <figure><img src="assets/photo_tirage.jpg" alt="Tirage extérieur"><figcaption>Tirage extérieur</figcaption></figure>
+          <figure><img src="assets/photo_marquage.jpg" alt="Marquage de recherche"><figcaption>Marquage de recherche</figcaption></figure>
+          <figure><img src="assets/photo_recherche.jpg" alt="Recherche de passage"><figcaption>Recherche de passage</figcaption></figure>
+          <figure><img src="assets/photo_tranchee.jpg" alt="Tranchée / accotement"><figcaption>Tranchée / accotement</figcaption></figure>
+          <figure><img src="assets/photo_reparation.jpg" alt="Réparation extérieure"><figcaption>Réparation extérieure</figcaption></figure>
+          <figure><img src="assets/photo_raccordement.jpg" alt="Raccordement / fourreau"><figcaption>Raccordement / fourreau</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="tarifs" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">TARIFS</span>
+          <h2>Grille tarifaire</h2>
+        </div>
+        <div class="pricing">
+          <div class="price-row"><span>Détection</span><strong>170€</strong></div>
+          <div class="price-row"><span>Détection supplémentaire</span><strong>100€</strong></div>
+          <div class="price-row"><span>Réparation sur sol mou</span><strong>300€</strong></div>
+          <div class="price-row"><span>Réparation sur sol dur</span><strong>500€</strong></div>
+          <div class="price-row"><span>Décroutage de chambre</span><strong>400€</strong></div>
+          <div class="price-row"><span>Aiguillage</span><strong>100€</strong></div>
+          <div class="price-row"><span>Tirage de câble</span><strong>150€</strong></div>
+          <div class="price-row"><span>Tirage de câble intérieur</span><strong>300€</strong></div>
+        </div>
+        <p class="note">
+          Sous réserve d’anomalie (réseau non répertorié, profondeur non respectée, obstacle imprévu, accès impossible),
+          le devis est susceptible d’être modifié après constat sur place.
+        </p>
+      </div>
+    </section>
+
+    <section id="eligibilite" class="section section-accent">
+      <div class="container eligibility-box">
+        <div>
+          <span class="eyebrow">VÉRIFIER L'ÉLIGIBILITÉ</span>
+          <h2>Consultez le site Altitude Infra</h2>
+          <p>Avant ou après votre demande, vous pouvez vérifier l’éligibilité fibre de votre adresse.</p>
+        </div>
+        <a class="btn btn-lg" href="https://eligibilite-fibre.altitudeinfra.fr/dsp/AI-0TCA#close" target="_blank" rel="noopener">
+          Vérifier mon éligibilité
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">CONTACT</span>
+          <h2>Parlons de votre raccordement</h2>
+          <p>Envoyez-nous des photos de votre problème par email ou sur WhatsApp pour une estimation rapide.</p>
+          <ul class="contact-list">
+            <li><strong>Téléphone :</strong> <a href="tel:+33619705993">06 19 70 59 93</a></li>
+            <li><strong>Email :</strong> <a href="mailto:bs.fibre@outlook.fr">bs.fibre@outlook.fr</a></li>
+            <li><strong>Zone :</strong> 14 / 27 / 76</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn" href="tel:+33619705993">Appeler</a>
+            <a class="btn btn-outline" href="mailto:bs.fibre@outlook.fr?subject=Demande%20devis%20CRP%20Telecom">Envoyer un email</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Demande rapide</h3>
+          <form id="leadForm">
+            <input type="text" name="nom" placeholder="Nom / Société" required>
+            <input type="tel" name="telephone" placeholder="Téléphone" required>
+            <input type="text" name="ville" placeholder="Ville / Code postal" required>
+            <select name="besoin" required>
+              <option value="">Votre besoin</option>
+              <option>Détection de blocage</option>
+              <option>Recherche de regards</option>
+              <option>Réparation de fourreaux</option>
+              <option>Tirage de fibre</option>
+              <option>Pose de PTO</option>
+            </select>
+            <textarea name="message" rows="5" placeholder="Expliquez votre problème..."></textarea>
+            <button class="btn btn-lg" type="submit">Préparer mon email</button>
+          </form>
+          <p class="mini">Le formulaire ouvre votre application email avec le message prérempli.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img class="footer-logo" src="assets/logo.png" alt="Logo CRP Telecom">
+      <p>© <span id="year"></span> CRP Telecom – Réparateur fibre optique</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
